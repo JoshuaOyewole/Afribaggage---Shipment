@@ -13,11 +13,66 @@
     flex-direction: column;
 }
 .j-c-center{
+    justify-content: center;
+}
+.m-t-large{
+    margin-top: 6rem;
+}
+
+.m-top-medium {
+    margin-top: 4rem;
+}
+.j-c-saround{
+    justify-content: space-around;
+}
+.j-c-sbetween{
     justify-content: space-between;
 }
 
+.m-b-large{
+    margin-bottom: 6rem;
+}
+
+.m-b-small{
+    margin-bottom: 2rem;
+}
+
+.width84{
+    width: 84% !important;
+}
+.grid-3-1-1-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.saved{
+    color: #FF0000;
+    font-size: .9rem;
+}
+
+.box-price{
+    color: #30DD40;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 1.2rem;
+}
+.padding-b-small{
+    padding-bottom: 2rem;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem 2rem;
+
+}
+.t-center{
+    text-align: center;
+}
 .container  {
     padding: 0 1.1rem;
+}
+
+.m-top-small{
+    margin-top: 2rem;
 }
 .flex{
     display: flex;
@@ -151,14 +206,26 @@ margin-top: 1.5rem;
 }
 
 .live-chat{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #509D58;
     text-decoration: none;
     font-weight: 700;
+  
+}
+
+.m-t-small{
+    margin-top: .6rem;
+}
+.live{
+    padding-left: .5rem;
+    line-height: 1.1;
 }
 
 .online{
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #6D6B6B;
 }
 .call-click{
     font-size: 1.2rem;
@@ -167,4 +234,204 @@ margin-top: 1.5rem;
 
 .online-icon{
     width: 1.608rem;
+    margin-right: .3rem;
+}
+
+.shipping-heading{
+    padding: 2rem 0;
+}
+
+.slide-1{
+    font-size: 1.3rem;
+    color: #1B1B1B;
+    font-weight: bold;
+}
+.slide-2{
+    color: #A7A7A7;
+    font-size: 1.3rem;
+}
+
+
+.phone-form{
+    background-color: #B7ECFD;
+    padding: 2rem 1.5rem 3rem 1.5rem;
+}
+
+.form-control label{
+    font-size: 1.4rem;
+    margin-bottom: .6rem;
+    color: #000000;
+    display: inline-block;
+}
+.form-field{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: .2rem;
+}
+
+.form-field__country{
+    background-color: #fff;
+    padding: .9rem 1rem;
+    border: none;
+    outline: none;
+}
+
+.bonus {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding: 1.5rem 1rem;
+    background-color: #F8F8F8;
+    margin: 2rem 0;
+}
+.bonus-heading{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.b-img{
+    width: 10.5rem;
+    height: 6.486rem;
+}
+
+.green{
+    color: #03A438;
+}
+
+.price{
+    color: #7E7E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.shipping-rate{
+    background-color: #B7ECFD;
+    padding: 2rem;
+}
+.shipping-rate-heading {
+    font-size: 1.8rem
+}
+.box__img{
+    width: 7.8rem;
+    height: 6.8rem;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 1.68rem;
+    text-align: center;
+    padding: 1.5rem .3rem;
+    position: relative;
+}
+
+.box-icon{
+    display: inline-block;
+    color: #fff;
+    background-color: #144DDE;
+    width: 3.6rem;
+    height: 4.03rem;
+    border-radius: .8rem;
+    position: absolute;
+    top: -1.5rem;
+    right: 0;
+}
+
+.price-detail {
+    font-weight: 700;
+}
+.form-control input[type='radio']{
+    padding: 1rem;
+    background-color: red;
+}
+
+.unknown-para{
+    padding-left: 2rem;
+}
+
+.customized-shipping {
+    font-weight: 700;
+}
+.product-select{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: .2rem;
+}
+.product-price {
+    justify-self: center;
+}
+.product-qty {
+    width: 80%;
+    padding: .8rem 1rem;
+    justify-self: end;
+}
+
+
+.item-terms{
+    background-color: #fff;
+    padding: 3rem 2rem;
+}
+
+.on-package-shipment{
+    background-color: #FEF996;
+    padding: 1rem;
+    line-height: 1.2;
+}
+
+.shipment-price{
+    color: #03A438;
+    font-weight: 700;
+}
+
+.place-order{
+    font-size: 1.3rem;
+}
+
+.on-packaging{
+    margin-right: 1rem;
+}
+
+.desc-item{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.wooden-img{
+    width: 7.866rem;
+    padding-right: 1rem;
+}
+
+.back,
+.next{
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+}
+
+.next{
+    background-color: #FECB33;
+}
+
+.back{
+    background-color: #f3d781;
+}
+.terms{
+    padding-right: 1rem;
+}
+
+.terms,
+.privacy{
+    color: #000;
+}
+
+footer{
+    background-color: #D1D1D1;
+   padding: 2rem;
+   font-size: 1.15rem;
 }

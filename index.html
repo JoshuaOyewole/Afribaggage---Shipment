@@ -47,7 +47,7 @@
         </div>
     </header>
 
-    <div class="ship-location-info flex j-c-center">
+    <div class="ship-location-info flex j-c-saround">
         <div class="secure flex">
             <img src="images/lock.png" alt="" class="lock">
             <div class="secure-details">
@@ -80,8 +80,8 @@
             </div>
     </div>
 
-        <div class="container">
-    <section class="contact grid-3 j-c-center">
+  <div class="container">
+    <section class="contact grid-3 j-c-saround">
         <div class="phone-details flex f-direction-column">
             <p class="order-by-phone">Order by Phone or Ask Question </p>
             <p class="tel">+380-23-23-566</p>
@@ -92,11 +92,151 @@
         </div>
         <div class="live">
             <a href="#" class="live-chat uppercase">CLick for live Chat</a>
-            <div class="flex"> 
+            <div class="flex m-t-small "> 
                 <img src="images/green-ellipse.png" alt="" class="online-icon"> <p class="uppercase online">online</p>
             </div>
         </div>
     </section>
-        </div>
+    
+
+            <section class="shipment-progress">
+                <p class="shipping-heading">
+                    <span class="slide-1">
+                        Shipment Detail
+                    </span>  
+                    <span class="slide-2">
+                        > Contact Information > Total Amount
+                    </span>
+                </p>
+            </section>
+       
+
+      
+            <div class="phone-form">
+                <form action="contact-info.html">
+                    <div class="form-control">
+                        <label for="phone-no">What's Your Phone No.</label>
+                        <span class="flex">
+                            <i class="phone-icon"></i>
+                            <select name="country-Code" id="" class="form-field__country">
+                                <option value="+380">+380</option>
+                                <option value="+380">+234</option>
+                            </select>
+                            
+                            <input type="number" class="form-field" placeholder="Enter your phone number">
+                        </span>
+                    </div>
+                </form>
+            </div>
+      
+  
+            <div class="bonus flex j-c-saround">
+                <div class="bonus-text">
+                    <h2 class="bonus-heading t-center">Bonus: Every person <br> placing an order today <br>  receives 10 kg free!</h2>
+                </div>
+                <div class="bonus-img flex f-direction-column">
+                    <img src="images/fullbox.png" alt="Every person placing an order today receives 10 kg free" class="b-img">
+                    <p class="uppercase price">10KG  <span class="green">
+                        FREE
+                    </span> </p>
+                </div>
+            </div>
+    
+            <div class="shipping-rate">
+                <h2 class="shipping-rate-heading padding-b-small">Choose Your Shipping Rate</h2>
+                <p class="available-rate padding-b-small">Available Rates</p>
+                <div class="grid-2 m-top-small">
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">2</span>
+                    </div>
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">+</span>
+                    </div>
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">+</span>
+                    </div>
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">+</span>
+                    </div>
+                </div>
+                    <form action="contact-info.html" class="m-t-small">
+                        <div class="form-control flex j-c-saround m-top-small">
+                            <input type="radio" name="unknown-weight" id="unknownWeight">
+                            <p class="unknown-para m-top-small">I dont know the weight of my bag. Send the weight to me.</p>
+                        </div>
+                        <p class="customized-shipping m-top-small padding-b-small">
+                            Customized Shipments
+                        </p>
+                        <div class="select-product flex j-c-saround m-b-small">
+                            <select name="product list" id=" " class="width84 product-list form-field ">
+                                <option value="default">Select a Product</option>
+                                <option value="product 2">Product 2</option>
+                                <option value="product 2">Product 3</option>
+                            </select>
+                            <span class="product-select">+</span>
+                        </div>
+                        <div class="product-info m-t-small">
+                            <div class="info">
+                                <div class="row grid-3 m-top-small">
+                                    <p class="product-item">Television</p>
+                                    <p class="product-price">$90</p>
+                                    <input type="text" name="product quantity" id="" class="product-qty" placeholder="Qty">
+                                </div>
+                                <div class="grid-3 m-top-small">
+                                    <p class="product-item">Sewing Machine</p>
+                                    <p class="product-price">$90</p>
+                                    <input type="text" name="product quantity" id="" class="product-qty" placeholder="Qty">
+                                </div>
+                                <div class="grid-3 m-top-small">
+                                    <p class="product-item">Micro wave</p>
+                                    <p class="product-price">$90</p>
+                                    <input type="text" name="product quantity" id="" class="product-qty" placeholder="Qty">
+                                </div>
+                            </div>
+                            <h3 class="packaging m-top-medium m-b-small">Packaging</h3>
+                        </div>
+
+                        <div class="item-terms ">
+                            <div class="on-package-shipment flex">
+                               <input type="checkbox" name="on-packaging" id="" class="on-packaging">
+                               <p class="place-order">Place an add-on packaging on my shippment.</p>
+                               <p class="shipment-price">$20</p>
+                            </div>
+                            <div class="on-package__desc flex m-top-small j-c-saround">
+                                <img src="images/wooden-frame.png" alt="" class="wooden-img">
+                                <p class="desc-item">Items like this are super fragile and they need to be crated in a wooden frame to help protect it from shock or anything that may expose it to damages.  </p>
+                            </div>
+                        </div>
+
+                        <div class="flex j-c-saround m-t-large m-b-large">
+                            <button class="back" id="back" disabled>Back</button>
+                            <button class="next" id="next">Next</button>
+                        </div>
+                    </form>
+            </div>
+</div>
+<footer class="m-t-large flex j-c-sbetween">
+    <p class="copright">Copyright 2021</p>
+    <div class="terms-privacy flex">
+        <a class="terms" href="#">Terms and Condition</a>
+        <a class="privacy" href="#">Privacy Policy</a>
+    </div>
+</footer>
 </body>
 </html>
