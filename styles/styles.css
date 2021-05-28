@@ -15,7 +15,6 @@
 .j-c-center{
     justify-content: center;
 }
-<<<<<<< HEAD
 .m-t-large{
     margin-top: 6rem;
 }
@@ -28,40 +27,8 @@
 }
 .j-c-sbetween{
     justify-content: space-between;
-=======
-
-.j-c-saround{
-    justify-content: space-around;
 }
 
-.width84{
-    width: 84% !important;
-}
-.grid-3-1-1-1{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.saved{
-    color: #FF0000;
-    font-size: .9rem;
-}
-
-.box-price{
-    color: #30DD40;
-    font-size: 1.8rem;
-    font-weight: 700;
-    padding-top: 1.2rem;
->>>>>>> 188e0d801969f4500b85a5d6b718af61614728c2
-}
-.padding-b-small{
-    padding-bottom: 2rem;
-}
-.grid-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 4rem 2rem;
-
-<<<<<<< HEAD
 .m-b-large{
     margin-bottom: 6rem;
 }
@@ -96,8 +63,6 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem 2rem;
 
-=======
->>>>>>> 188e0d801969f4500b85a5d6b718af61614728c2
 }
 .t-center{
     text-align: center;
@@ -387,10 +352,86 @@ margin-top: 1.5rem;
     padding-left: 2rem;
 }
 
+.customized-shipping {
+    font-weight: 700;
+}
 .product-select{
     background-color: #fff;
     outline: none;
     border: none;
     padding: 1rem;
     border-radius: .2rem;
+}
+.product-price {
+    justify-self: center;
+}
+.product-qty {
+    width: 80%;
+    padding: .8rem 1rem;
+    justify-self: end;
+}
+
+
+.item-terms{
+    background-color: #fff;
+    padding: 3rem 2rem;
+}
+
+.on-package-shipment{
+    background-color: #FEF996;
+    padding: 1rem;
+    line-height: 1.2;
+}
+
+.shipment-price{
+    color: #03A438;
+    font-weight: 700;
+}
+
+.place-order{
+    font-size: 1.3rem;
+}
+
+.on-packaging{
+    margin-right: 1rem;
+}
+
+.desc-item{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.wooden-img{
+    width: 7.866rem;
+    padding-right: 1rem;
+}
+
+.back,
+.next{
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+}
+
+.next{
+    background-color: #FECB33;
+}
+
+.back{
+    background-color: #f3d781;
+}
+.terms{
+    padding-right: 1rem;
+}
+
+.terms,
+.privacy{
+    color: #000;
+}
+
+footer{
+    background-color: #D1D1D1;
+   padding: 2rem;
+   font-size: 1.15rem;
 }
