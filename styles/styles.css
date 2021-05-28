@@ -28,11 +28,27 @@
 .j-c-sbetween{
     justify-content: space-between;
 }
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.form-field__small-padding{
+    padding: .7rem 1rem !important;
+}
 
+.cover-free {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    color: rgba(41, 34, 34, 0.801);
+}
 .m-b-large{
     margin-bottom: 6rem;
 }
-
+.p-t-small{
+    padding-top: 3rem;
+}
 .m-b-small{
     margin-bottom: 2rem;
 }
@@ -199,14 +215,16 @@ margin-top: 1.5rem;
 }
 
 .laptop-woman{
-    width: 9.549rem;
-    height: 9.278rem;
+    width: 8.5rem;
+    height: 8rem;
 }
+
 .tel{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #21678D;
     font-weight: 700;
 }
+
 
 .live-chat{
     font-size: 1.3rem;
@@ -218,6 +236,11 @@ margin-top: 1.5rem;
 
 .m-t-small{
     margin-top: .6rem;
+}
+
+.inverse{
+    grid-template-columns: 2fr 1fr !important;
+    align-items: center;
 }
 .live{
     padding-left: .5rem;
@@ -231,7 +254,7 @@ margin-top: 1.5rem;
     color: #6D6B6B;
 }
 .call-click{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(117, 14, 14);
 }
 
@@ -313,7 +336,7 @@ margin-top: 1.5rem;
 
 .shipping-rate{
     background-color: #B7ECFD;
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 .shipping-rate-heading {
     font-size: 1.8rem
@@ -492,4 +515,46 @@ footer{
 }
 .how-soon__text{
     padding: 2rem 3rem;
+}
+
+.custom{
+    font-size: 1.152rem;
+}
+
+.amount-to-pay{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.grid-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.grid-1-1-1 p{
+    font-size: 1.767rem;
+}
+.border-line{
+    color: #333;
+}
+
+.total{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.go-back{
+    font-size: 1.8rem;
+    color: #0E0F11;
+    text-decoration: none;
+    display: block;
+}
+@media(min-width:375px){
+    .tel{
+        font-size: 1.9rem;
+    }
+    .call-click {
+        font-size: 1.2rem;
+    }
 }
