@@ -37,6 +37,9 @@
     margin-bottom: 2rem;
 }
 
+.no-margin{
+    margin-bottom: 0 !important;
+}
 .width84{
     width: 84% !important;
 }
@@ -465,4 +468,28 @@ footer{
 }
 .offers{
     color: #F0EDEE;
+}
+
+.grid-1-3 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.termsCondition{
+    margin-right: 1rem;
+}
+
+.how-soon{
+    padding: 4rem 0;
+}
+
+.primary-text{
+    color: #508BAD;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 2rem 0;
+}
+.how-soon__text{
+    padding: 2rem 3rem;
 }
