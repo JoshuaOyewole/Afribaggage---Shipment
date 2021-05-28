@@ -47,7 +47,7 @@
         </div>
     </header>
 
-    <div class="ship-location-info flex j-c-center">
+    <div class="ship-location-info flex j-c-saround">
         <div class="secure flex">
             <img src="images/lock.png" alt="" class="lock">
             <div class="secure-details">
@@ -80,8 +80,8 @@
             </div>
     </div>
 
-        <div class="container">
-    <section class="contact grid-3 j-c-center">
+  <div class="container">
+    <section class="contact grid-3 j-c-saround">
         <div class="phone-details flex f-direction-column">
             <p class="order-by-phone">Order by Phone or Ask Question </p>
             <p class="tel">+380-23-23-566</p>
@@ -92,11 +92,127 @@
         </div>
         <div class="live">
             <a href="#" class="live-chat uppercase">CLick for live Chat</a>
-            <div class="flex"> 
+            <div class="flex m-t-small "> 
                 <img src="images/green-ellipse.png" alt="" class="online-icon"> <p class="uppercase online">online</p>
             </div>
         </div>
     </section>
-        </div>
+    
+
+            <section class="shipment-progress">
+                <p class="shipping-heading">
+                    <span class="slide-1">
+                        Shipment Detail
+                    </span>  
+                    <span class="slide-2">
+                        > Contact Information > Total Amount
+                    </span>
+                </p>
+            </section>
+       
+
+      
+            <div class="phone-form">
+                <form action="contact-info.html">
+                    <div class="form-control">
+                        <label for="phone-no">What's Your Phone No.</label>
+                        <span class="flex">
+                            <i class="phone-icon"></i>
+                            <select name="country-Code" id="" class="form-field__country">
+                                <option value="+380">+380</option>
+                                <option value="+380">+234</option>
+                            </select>
+                            
+                            <input type="number" class="form-field" placeholder="Enter your phone number">
+                        </span>
+                    </div>
+                </form>
+            </div>
+      
+  
+            <div class="bonus flex j-c-saround">
+                <div class="bonus-text">
+                    <h2 class="bonus-heading t-center">Bonus: Every person <br> placing an order today <br>  receives 10 kg free!</h2>
+                </div>
+                <div class="bonus-img flex f-direction-column">
+                    <img src="images/fullbox.png" alt="Every person placing an order today receives 10 kg free" class="b-img">
+                    <p class="uppercase price">10KG  <span class="green">
+                        FREE
+                    </span> </p>
+                </div>
+            </div>
+    
+            <div class="shipping-rate">
+                <h2 class="shipping-rate-heading padding-b-small">Choose Your Shipping Rate</h2>
+                <p class="available-rate padding-b-small">Available Rates</p>
+                <div class="grid-2 m-top-small">
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">2</span>
+                    </div>
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">+</span>
+                    </div>
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">+</span>
+                    </div>
+                    <div class="box">
+                        <img src="images/sale40.png" alt="1-10kg box at $65" class="box__img">
+                        <p class="price-detail">1-10kg at $65</p>
+                        <p class="saved">You Saved $80!</p>
+                        <p class="box-price">$90.00</p>
+                        <span class="box-icon">+</span>
+                    </div>
+                </div>
+                    <form action="contact-info.html" class="m-t-small">
+                        <div class="form-control flex j-c-saround m-top-small">
+                            <input type="radio" name="unknown-weight" id="unknownWeight">
+                            <p class="unknown-para m-top-small">I dont know the weight of my bag. Send the weight to me.</p>
+                        </div>
+                        <p class="customized-shipping m-top-small padding-b-small">
+                            Customized Shipments
+                        </p>
+                        <div class="select-product flex j-c-saround">
+                            <select name="product list" id=" " class="width84 product-list form-field ">
+                                <option value="default">Select a Product</option>
+                                <option value="product 2">Product 2</option>
+                                <option value="product 2">Product 3</option>
+                            </select>
+                            <button class="product-select">+</button>
+                        </div>
+                        <div class="product-info">
+                            <div class="info">
+                                <div class="row grid-3-1-1-1">
+                                    <p class="product-item">Television</p>
+                                    <p class="product-price">$90</p>
+                                    <input type="text" name="product quantity" id="" class="product-qty">
+                                </div>
+                                <div class="row flex">
+                                    <p class="product-item">Television</p>
+                                    <p class="product-price">$90</p>
+                                    <input type="text" name="product quantity" id="" class="product-qty">
+                                </div>
+                                <div class="row flex">
+                                    <p class="product-item">Television</p>
+                                    <p class="product-price">$90</p>
+                                    <input type="text" name="product quantity" id="" class="product-qty">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+              
+            </div>
+</div>
 </body>
 </html>
