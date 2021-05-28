@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY CLASSES */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.f-direction-column{
+    flex-direction: column;
+}
+.j-c-center{
+    justify-content: space-between;
+}
+
+.container  {
+    padding: 0 1.1rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.9rem;
+    align-items: center;
+}
+
+.logo-img{
+    width: 11.4rem;
+    height: 3.45rem;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+}
+
+.timer__flip-clock-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.order-header__text{
+    font-size: 1.065rem;
+    padding-bottom: 1.3rem;
+}
+
+.hr, .min, .sec{
+    font-size: 0.855rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.digit{
+    background-color: #323234;
+    color:#D0CED1;
+    border-radius: 1.22px;
+    padding: .2rem .5rem;
+}
+
+.ship-location-info{
+    background-color: #21AEFB;
+    padding: 1rem 1.5rem;
+}
+
+.secure-details{
+    font-family: 'Roboto', sans-serif;
+    padding-left: .5rem;
+}
+.lock{
+    width: 2.965rem;
+    height: 4.41rem;
+}
+.secure-heading{
+    font-size: 1.65rem;
+    color: #FBFDF6;
+}
+.order-from{
+    color: #14353F;
+    font-size: .985rem;
+}
+.ship-from--heading{
+    font-size: .867rem;
+    color: #FEFEFC;
+}
+.ship-from--country{
+    font-size: .814rem;
+    color: #FEFEFE;
+}
+.flag--ukraine{
+    height: 2.1rem;
+    width: 1.8rem;
+}
+.flag--nigeria{
+    height: 1.986rem;
+    width: 2.34rem;
+}
+
+.ship-from--country{
+    padding-left: .8rem;
+}
+
+
+/* Contact Section */
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+}
+.contact{
+box-shadow: 0 4px 4px rgb(191 190 190);
+border-radius: 1rem;
+padding: .5rem 1rem;
+margin-top: 1.5rem;
+}
+.order-by-phone{
+    font-size: 1rem;
+    color: #8D8A8B;
+    text-align: center;
+}
+
+.laptop-woman{
+    width: 9.549rem;
+    height: 9.278rem;
+}
+.tel{
+    font-size: 1.8rem;
+    color: #21678D;
+    font-weight: 700;
+}
+
+.live-chat{
+    font-size: 1.2rem;
+    color: #509D58;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.online{
+    font-size: 1rem;
+}
+.call-click{
+    font-size: 1.2rem;
+    color: rgb(117, 14, 14);
+}
+
+.online-icon{
+    width: 1.608rem;
+}
